@@ -1,0 +1,15 @@
+.button {
+    padding: 12px 24px;
+    border-radius: 118px;
+    border: 1.5px solid #2c2f24;
+}
+
+.button-xl {
+    padding: 20px 32px;
+}   
+
+.button-red {
+    border: 1.5px solid #AD343E;
+    background-color: #AD343E;
+    color: #fff
+}
