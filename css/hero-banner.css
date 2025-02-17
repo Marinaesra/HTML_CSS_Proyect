@@ -2,7 +2,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    background-image:url("/imagenes/Hero.jpg");
+    background-image:linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)),url("/imagenes/Hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -17,7 +17,8 @@
     font-size: 6.25rem;
 }
 
-.hero-banner-description {
+.hero-banner-desc {
+    justify-content: center;
     font-size: 20px;
     margin: 1.5rem 0 40px;
 }       
