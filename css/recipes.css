@@ -1,7 +1,47 @@
-.top recipes-title {
-    font-size: 55px;
-    text-align: center;
-    width: 1030px
-    padding 88px;
+.recipes{
+    display: flex;
+    flex-direction:column;  
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+    color: #182226;
 }
 
+.recipe-title {
+    font-size: 3.437rem;
+    text-align: center;
+    max-width: 87.875rem;
+    padding-top: 5.5rem;
+}
+
+.recipe-img{ 
+    max-width: 87.875rem;
+    border-radius: 12 12 0 0;
+    padding: 4rem 0;
+}
+
+.ingredients {
+    display: flex;
+    max-width: 87.875rem;
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #182226;
+}
+.ingredients-list {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.ingredients-title{
+    font-size: 3.4375rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.instructions {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.instructions-title{
+    font-size: 1.5rem;
+}

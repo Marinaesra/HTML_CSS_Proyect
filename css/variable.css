@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #AD343E;
+    --secondary-color: #2C2F24;
+    --tertiary-color: #F9F9F7;
+    --quaternary-color: #474747
+    
+    --front-text:DM Sans, sans-serif;
+    --title-text:Playfair Display, serif;
+
+    --font-base: 1rem;
+}
