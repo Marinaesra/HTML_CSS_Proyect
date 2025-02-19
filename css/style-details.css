@@ -1,13 +1,13 @@
 /*settings*/
 
 /*generic*/
-@import "/generic/reset.css";
+@import "generic/reset.css";
 
 /*elements*/
-@import "/elements/header-details.css";
-@import "/elements/recipes.css";
+@import "elements/header-details.css";
+@import "elements/recipes.css";
 
 /*components*/
-@import "/components/buttons.css";
+@import "components/buttons-details.css";
 
 

@@ -46,4 +46,9 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-ul{ list-style: none;}
+ul{ list-style: none;
+    list-style-type: none;
+}
+li{ list-style: none;
+    list-style-type: none;
+}
