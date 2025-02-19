@@ -1,4 +1,13 @@
-@import url(reset.css);
-@import url(buttons-details.css);
-@import url(header-details.css);
-@import url(recipes.css);
+/*settings*/
+
+/*generic*/
+@import "/generic/reset.css";
+
+/*elements*/
+@import "/elements/header-details.css";
+@import "/elements/recipes.css";
+
+/*components*/
+@import "/components/buttons.css";
+
+
