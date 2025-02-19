@@ -31,7 +31,8 @@
 }
 
 .main-menu { 
-    max-width: 1300px;
+    --font-base:1.5rem;
+    max-width: 1300p;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
