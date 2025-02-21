@@ -48,7 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 
 ul{ list-style: none;
     list-style-type: none;
+    padding: 0;
 }
-li{ list-style: none;
-    list-style-type: none;
+
+a {
+  text-decoration: none;
 }
