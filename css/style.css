@@ -1,7 +1,6 @@
 /*settings*/
 @import "settings/variables.css";
 
-
 /*generic*/
 @import "generic/reset.css";
 @import "generic/layout.css";
@@ -10,6 +9,9 @@
 /*elements*/
 @import "elements/header.css";
 @import "elements/hero-banner.css";
+@import "elements/our-menu.css";
+@import "elements/about-us.css";
+@import "elements/services.css";
 
 
 /*components*/

@@ -31,7 +31,6 @@
 }
 
 .main-menu { 
-    --font-base:1.5rem;
     max-width: 1300p;
     margin: 0 auto;
     display: flex;

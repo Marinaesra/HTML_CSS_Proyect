@@ -33,6 +33,17 @@
     
 }
 
+ /*   input [type="checkbox"]::after {
+    appearance: none;
+    border: 1px solid;
+    padding: 0 auto;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+} */
+
 .ingredients-title{
     font-size: 3.4375rem;
     max-width: 1300px;

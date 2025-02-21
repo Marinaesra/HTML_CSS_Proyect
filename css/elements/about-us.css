@@ -1,0 +1,62 @@
+.about-us {
+    display: flex;
+    align-items: center;
+    padding-block: 120px;
+    
+}
+
+.about-us > div {
+    width: 50%;
+}
+
+.about-us-info {
+    position: relative;
+}
+
+.about-us-info-box {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    max-width: 411px;
+    width: 100%;
+    padding: 50px;
+    background-color: var(--color-dark-grey);
+    border-radius: 12px;
+    color: var(--color-white);
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+
+.about-us-info-box-title {
+    margin-block-end: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+}
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-inline-start: 90px;
+}
+.about-us-title {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 125%;
+    color: var(--color-font);
+}
+.about-us-desc-main {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 125%;
+    color: var(--color-font);
+}
+
+/*.about-us-info-box-phone {
+    content: url(../images/phone.svg);
+    }
+
+.about-us-info-box-mail {
+    content: url(../images/mail.svg);*/
+    
