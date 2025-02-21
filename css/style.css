@@ -12,6 +12,9 @@
 @import "elements/our-menu.css";
 @import "elements/about-us.css";
 @import "elements/services.css";
+@import "elements/delivery.css";
+@import "elements/opinions.css";
+@import "elements/blog.css";
 
 
 /*components*/
