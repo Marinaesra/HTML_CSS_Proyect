@@ -1,6 +1,4 @@
-.bg-dark-grey {
-    background-color: #474747;
-}
+
 
 .top-bar {
     display: flex;
@@ -62,4 +60,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-}   
+}   .bg-dark-grey {
+    background-color: #474747;
+}

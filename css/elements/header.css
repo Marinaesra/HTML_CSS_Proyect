@@ -1,28 +1,28 @@
-.bg-dark-grey {
-    background-color: #474747;
+.bg-green {
+    background-color: red;
 }
 
-.top-bar {
+.contact-me {
     display: flex;
     justify-content: space-between;
-    background-color: #474747;
+    background-color: var(--color-green, #bde261);
     color: white;
 }
 
-.top-bar a {
+.contact-me a {
     color: white;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.top-bar-contact{
+.me-info{
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.top-bar-social-menu {
+.my-redes {
     display: flex;
     align-items: center;   
     gap: 4px; 

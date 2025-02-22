@@ -1,4 +1,5 @@
 /*settings*/
+@import "settings/variables.css";
 
 /*generic*/
 @import "generic/reset.css";
@@ -7,6 +8,7 @@
 @import "elements/header-details.css";
 @import "elements/recipes.css";
 @import "elements/more-articles.css";
+@import "elements/footer.css";
 
 /*components*/
 @import "components/buttons-details.css";

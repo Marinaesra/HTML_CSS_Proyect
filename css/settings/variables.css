@@ -6,6 +6,11 @@
     --color-white: #FFFFFF;
     --color-font: #182226;
     --color-black: #000000;
+    --color-font-secondary: #414536;
+    --color-font-tertiary: #ADB29E;
+    --color-semi-dark-grey: #737865;
+    --color-light-grey: #DBDFD0;
+    --color-green: #bde261
 
     --front-text:"DM Sans", sans-serif;
     --title-text: "Playfair Display", serif;
