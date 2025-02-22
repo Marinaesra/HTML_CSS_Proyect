@@ -1,7 +1,8 @@
 .about-us {
     display: flex;
     align-items: center;
-    padding-block: 7.5rem;    
+    padding-block: 7.5rem;  
+    background-color: #F8F9F7;  
 }
 
 .about-us > div {

@@ -1,24 +1,22 @@
 .delivery {
     display: flex;
     align-items: center;
-    padding-block: 7.5rem;    
-}
-
-.delivery > div {
-    width: 50%;
+    padding-block: 7.5rem;
+    gap: 5.625rem;
+    background-color: #F8F9F7;  
 }
 
 .delivery-imgs {
     display: grid;
-    grid-template-columns: 1fr 0.75fr;
-    grid-template-rows: 30px 333px 240px 33px;
+    grid-template-columns: 26.875rem 18.125rem;
+    grid-template-rows: 1.875rem 20.8125rem 15rem 1.875rem;
     gap: 24px;
 }
 
 .delivery-img {
-    object-fit: cover;
-    height: 100%;
-    border-radius: 12px;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 0.75rem;
 }
 
 .delivery-img:nth-child(1) {
@@ -27,7 +25,7 @@
 }
 
 .delivery-img:nth-child(2) {
-    grid-column: 2 / 5;
+    grid-row: 2 / 3;
 }
 
 .delivery-img:nth-child(3) {
@@ -35,16 +33,72 @@
 }
 
 .delivery-title {
-    color: var(--color-font #182226);
+    color: var(--color-font);
+    font-family: var(--font-title, "Playfair Display", serif);
+    font-size: 3.4375rem;
+    font-weight: 500;
+    line-height: 110%;
+    margin-block-end: 1.875rem;
 }
 
-.delivery-text {
+.delivery-desc {
     line-height: 150%;
-    margin-inline-end: 3.125rem;
+    margin-block-end: 3.125rem;
 }
 
-.delivery-points{
+
+.delivery-desc {
+    width: 25.875rem;
+    color: var(--color-font-secondary);
+    font-family: var(--font-text);
+    font-weight: 400;
+    line-height: 150%
+
+}
+
+.delivery-points {
     display: flex;
+    flex-direction: column;
     gap: 1.25rem;
-    
+}
+
+.delivery-point-item {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    color: var(--color-font);
+    font-family: var(--font-text);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 130%;
+    position: relative;
+    padding-inline-start: 3.125rem;;
+}
+
+.delivery-point-item:nth-child(1)::before {
+    content: url(../../imagenes/clock.svg);
+}
+
+.delivery-point-item:nth-child(2)::before {
+    content: url(../../imagenes/receipt-tax.svg);
+}
+
+.delivery-point-item:nth-child(3)::before {
+    content: url(../../imagenes/shopping-cart.svg);
+}
+
+.delivery-points ::before {
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    width: 1.875rem;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    padding-top: 0.25rem;
+    padding-left: 0.0625rem;
 }
