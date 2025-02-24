@@ -1,7 +1,9 @@
 body {
     font-family: var(--front-text)
     background-color #f9f9f7;
-} h1,
+} 
+
+h1,
 h2,
 h3,
 h4,
@@ -14,4 +16,8 @@ h6{
 .container {
     max-width: 81rem;
     margin: 0 auto;
+}
+
+.bg-grey {
+    background-color: var(--color-tertiary);
 }
