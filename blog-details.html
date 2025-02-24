@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style-details.css">
 </head>
+
 <body>
     <header>
         <div class="bg-dark-grey">
@@ -22,13 +26,13 @@
                         <li>
                             <a href="#"><img src="/imagenes/facebook.svg" alt="logo del facebook"></a>
                         </li>
-                        <li>                        
+                        <li>
                             <a href="#"><img src="/imagenes/twiter.svg" alt="logo del twiter"></a>
                         </li>
-                        <li>                        
+                        <li>
                             <a href="#"><img src="/imagenes/instagram.svg" alt="logo de instagram"></a>
                         </li>
-                        <li>                        
+                        <li>
                             <a href="#"><img src="/imagenes/github.svg" alt="logo de github"></a>
                         </li>
                     </ul>
@@ -38,7 +42,7 @@
         <div class="main-menu">
             <div class="logo">
                 <img src="/imagenes/japanese-food.svg" alt="Logo del restaurante Bistro Bliss">
-                <h1>Bistro Bliss</h1>
+                <h1 class="name-bar-title">Bistro Bliss</h1>
             </div>
             <nav class="menu">
                 <ul class="menu-list">
@@ -59,83 +63,104 @@
             <button class="button">Book a table</button>
         </div>
     </header>
-</section>
-<main>
-    <div>
-        <section class="recipes">
-            <h2 class="recipe-title">The secret tips & tricks to prepare a perfect strawberry cream cheescake</h2>
-            <img class="recipe-img" src="/imagenes/tarta.porcion.jpg"
-            alt="una porcion de tarta de queso, con frutos rojos encima,sobre un plato azul, en una mesa decoradara">
-        </section>   
-        <section class="ingredients">
-            <div class="ingredients-list">
-                <h3 class="ingredients-title">Ingredients</h3>
-                <p class="ingredients-crust-title">For the crust</p>
-            <li><label><input type="checkbox" name="ingredient" id="ingredient1">400g graham crackers</label>
-            </li>
-            <li><label><input type="checkbox" name="ingredient" id="ingredient2">150g unsalted butters,
-                melted</label></li>
-                <li><label><input type="checkbox" name="ingredient" id="ingredient3">Online Services
-                    Available</label></li>
-                    <p class="ingredients-cheesecake-title">For the cheesecake</p>
-                    <li><label><input type="checkbox" name="ingredient" id="ingredient4">300g marshmallows</label></li>
-                    <li><label><input type="checkbox" name="ingredient" id="ingredient5">75g unsalted butter,
-                        melted</label></li>
+    </section>
+    <main>
+        <div>
+            <section class="recipes">
+                <h2 class="recipe-title">The secret tips & tricks to prepare a perfect strawberry cream cheescake</h2>
+                <img class="recipe-img" src="/imagenes/tarta.porcion.jpg"
+                    alt="una porcion de tarta de queso, con frutos rojos encima,sobre un plato azul, en una mesa decoradara">
+            </section>
+            <section class="ingredients">
+                <div class="ingredients-list">
+                    <h3 class="ingredients-title">Ingredients</h3>
+                    <div class="ingredients-box">
+                        <p class="ingredients-crust-title">For the crust</p>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient1">400g graham crackers</label>
+                        </li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient2">150g unsalted butters,
+                                melted</label></li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient3">Online Services
+                                Available</label></li>
+                    </div>
+                    <div class="ingredients-box">
+                        <p class="ingredients-cheesecake-title">For the cheesecake</p>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient4">300g marshmallows</label></li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient5">75g unsalted butter,
+                                melted</label></li>
                         <li><label><input type="checkbox" name="ingredient" id="ingredient6">500g Philadelphia cream cheese,
-                            softneted</label></li>
-                <li><label><input type="checkbox" name="ingredient" id="ingredient7"></label>250ml
-                    thickened/whipping cream, warm</li>
-                <li><label><input type="checkbox" name="ingredient" id="ingredient8"></label>3 tbsp powdered gelatin
-                    + 3 tbsp water</li>
-                <li><label><input type="checkbox" name="ingredient" id="ingredient9"></label>5 drops purple food gel
-                </li>
-                <li><label><input type="checkbox" name="ingredient" id="ingredient10"></label>3 drops blue food gel</li>
-            </div>
-            <div class="instructions">
+                                softneted</label></li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient7"></label>250ml
+                            thickened/whipping cream, warm</li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient8"></label>3 tbsp powdered gelatin
+                            + 3 tbsp water</li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient9"></label>5 drops purple food gel
+                        </li>
+                        <li><label><input type="checkbox" name="ingredient" id="ingredient10"></label>3 drops blue food gel
+                        </li>
+                    </div>
+                </div>
+                <div class="instructions">
                     <h3 class="instructions-title">Instructions</h3>
-                    <p>For a recipe with so few ingredients (cream cheese, eggs, sugar, sour cream, vanilla & salt), it took
+                    <p>For a recipe with so few ingredients (cream cheese, eggs, sugar, sour cream, vanilla & salt), it
+                        took
                         a lot longer than you might think to develop the perfect version. I’ve shared a few cheesecake
-                        variations in the past but getting a perfected classic version took lots of testing. Finally, here
+                        variations in the past but getting a perfected classic version took lots of testing. Finally,
+                        here
                         we are.
                     </p>
                     <ol>
                         <li>Use room temperature ingredients: It’s important that your cream cheese comes to room
-                            temperature before you begin making your cheesecake. This will prevent any lumps and ensure a
-                            cheesecake with a smooth, creamy texture. However, to ensure that all of your ingredients blend
-                            together nicely and give you the desired result, they should all be at room temperature before
+                            temperature before you begin making your cheesecake. This will prevent any lumps and ensure
+                            a
+                            cheesecake with a smooth, creamy texture. However, to ensure that all of your ingredients
+                            blend
+                            together nicely and give you the desired result, they should all be at room temperature
+                            before
                             you
                             begin. </li>
                         <li>Take it easy on the eggs: Over-beating your eggs is one of the quickest ways to ruin a
                             cheesecake. Over-beating can ruin the texture and can cause cracks. To prevent this, lightly
-                            scramble each egg before adding it into your batter. Keep your mixer on low speed and stir until
-                            just combined. Be sure to pause after each addition and scrape down the sides and bottom of your
+                            scramble each egg before adding it into your batter. Keep your mixer on low speed and stir
+                            until
+                            just combined. Be sure to pause after each addition and scrape down the sides and bottom of
+                            your
                             mixing bowl.</li>
                         <img class="crust-cheesecake" src="/imagenes/base-tarta.jpg"
                             alt="base de galleta de una tarta en un molde de aluminio con una pegote de crema encima">
-                        <li>Don’t open the oven: I know how tempting it can be to want to check on your perfect, beautiful
-                            cheesecake, but wait until it’s finished baking (or close to it) before opening the oven door!
+                        <li>Don’t open the oven: I know how tempting it can be to want to check on your perfect,
+                            beautiful
+                            cheesecake, but wait until it’s finished baking (or close to it) before opening the oven
+                            door!
                             Yes, you will have to test for doneness at some point and there’s a real possibility it will
-                            need more time in the oven, but minimize opening the oven as much as possible.Opening the oven
-                            door can drastically reduce the temperature of your oven, which will slow the baking process and
+                            need more time in the oven, but minimize opening the oven as much as possible.Opening the
+                            oven
+                            door can drastically reduce the temperature of your oven, which will slow the baking process
+                            and
                             might cause your cheesecake to sink or crack. </li>
                         <li>Free your crust!: Once your cheesecake is done
-                            baking, allow it to cool for 10 minutes on top of the stove. Then, run a knife around the inside
+                            baking, allow it to cool for 10 minutes on top of the stove. Then, run a knife around the
+                            inside
                             of the springform pan to loosen the crust from the sides.</li>
                         <li>Cool at room temperature before moving
-                            to the fridge: I always let my cheesecake come to room temperature before chilling. For bests
-                            results, let it cool as gradually as possible. I put mine on top of my oven (the warmest spot in
-                            my house) so it can gradually cool off as the oven does. This pre-chilling cooling period can
+                            to the fridge: I always let my cheesecake come to room temperature before chilling. For
+                            bests
+                            results, let it cool as gradually as possible. I put mine on top of my oven (the warmest
+                            spot in
+                            my house) so it can gradually cool off as the oven does. This pre-chilling cooling period
+                            can
                             take an hour or two, but it’s worth it. An abrupt temperature change (moving the cheesecake
                             directly from oven to fridge) is likely to make it crack.</li>
                         <img class="cheescake" src="/imagenes/tarta-completa.jpg"
                             alt="base de galleta de una tarta con un crema encima consolidada">
                     </ol>
                 </div>
-        </section>
-        <section class="other-articles">
-            <h2 class="other-articles-title">Read More Articles</h2>
-            <p class="other-articles-desc">We consider all the drivers of change gives you the components you need to
-                change to create a truly happens.</p>
+            </section>
+            <section class="other-articles">
+                <h2 class="other-articles-title">Read More Articles</h2>
+                <p class="other-articles-desc">We consider all the drivers of change gives you the components you need
+                    to
+                    change to create a truly happens.</p>
                 <div class="more-articles-list">
 
                     <article class="blog-article">
@@ -147,17 +172,17 @@
                     <article class="blog-article">
                         <img class="blog-article-img" src="/imagenes/croissant.jpg"
                             alt="las manos de una cocinera enrrollando un croissant y mas prepardo encima de una mesa de madera">
-                       <div class="article-card-text">
-                           <time class="blog-article-date" datetime="">January 3, 2023</time>
-                       <p class="blog-article-desc">Exclusive baking lessons from the pastry king</p>
-                       </div>
+                        <div class="article-card-text">
+                            <time class="blog-article-date" datetime="">January 3, 2023</time>
+                            <p class="blog-article-desc">Exclusive baking lessons from the pastry king</p>
+                        </div>
                     </article>
                     <article class="blog-article">
                         <img class="blog-article-img" src="/imagenes/chips.vegetables.jpg"
                             alt="un plato donde se ven patatas fritas, algo de verdura y un filete empanado de fondo">
                         <div class="article-card-text">
                             <time class="blog-article-date" datetime="">January 3, 2023</time>
-                        <p class="blog-article-desc">How to prepare the perfect fries in an air fryer</p>
+                            <p class="blog-article-desc">How to prepare the perfect fries in an air fryer</p>
                         </div>
                     </article>
                     <article class="blog-article">
@@ -165,18 +190,18 @@
                             alt="una mano cogiendo un trozo de pollo empanado partido por la mitad">
                         <div class="article-card-text">
                             <time class="blog-article-date" datetime="">January 3, 2023</time>
-                        <p class="blog-article-desc">How to prepare delicious chicken tenders</p>
+                            <p class="blog-article-desc">How to prepare delicious chicken tenders</p>
                         </div>
                     </article>
                 </div>
-        </section>
+            </section>
     </main>
     <footer>
         <footer class="footer">
             <div class="footer-info">
                 <div class="footer-info-company">
                     <div class="logo">
-                        <img class="logo" src="/imagenes/japanese-food.svg" alt="Logo del restaurante Bistro Bliss">
+                        <img class="logo" src="/imagenes/japanese-food-white.svg" alt="Logo del restaurante Bistro Bliss">
                         <h1>Bistro Bliss</h1>
                     </div>
                     <p class="footer-info-company-desc">In the new era of technology we look a in the future with
@@ -196,7 +221,7 @@
                             </li>
                             <li>
                                 <a href="#"><img src="/imagenes/github-rojo.svg" alt="logo de github en rojo"></a>
-                            
+
                         </ul>
                     </nav>
                 </div>

@@ -4,6 +4,7 @@
     padding-block: 7.5rem;
     gap: 5.625rem;
     background-color: #F8F9F7;  
+    font-family:var(--front-text);
 }
 
 .delivery-imgs {
@@ -34,7 +35,7 @@
 
 .delivery-title {
     color: var(--color-font);
-    font-family: var(--font-title, "Playfair Display", serif);
+    font-family:var(--title-text);
     font-size: 3.4375rem;
     font-weight: 500;
     line-height: 110%;

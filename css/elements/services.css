@@ -1,5 +1,6 @@
 .services {
     padding-block: 106px;
+    font-family:var(--front-text);
 }
 
 .services-title {
@@ -7,6 +8,7 @@
     font-weight: 500;
     line-height: 110%;
     color: var(--color-font);
+    font-family: var(--title-text);
     max-width: 42.1857rem;
     margin-block-end: 4rem
 }

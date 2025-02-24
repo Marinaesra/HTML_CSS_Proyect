@@ -2,14 +2,15 @@
     display: flex;
     flex-direction:column;  
     align-items: center;
-    color: #182226;
-    line-height: 60.5px;
-    font-family: "Playfair Display";
 }
 
 .recipe-title {
-    font-size: 3.437rem;
+    font-family: var(--title-text);
+    font-size: 55px;
+    font-weight: 500;
     text-align: center;
+    line-height: 110%;
+    color: var(--color-font);
     max-width: 87.875rem;
     padding-top: 5.5rem;
 }
@@ -20,41 +21,3 @@
     padding: 4rem 0;
 }
 
-.ingredients {
-    display: flex;
-    max-width: 87.875rem;
-    max-width: 1300px;
-    margin-inline-start:auto;
-    color: #182226;
-}
-.ingredients-list {
-    max-width: 1300px;
-    margin: 0 auto;
-    
-}
-
- /*   input [type="checkbox"]::after {
-    appearance: none;
-    border: 1px solid;
-    padding: 0 auto;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    align-items: center;
-} */
-
-.ingredients-title{
-    font-size: 3.4375rem;
-    max-width: 1300px;
-    margin: 0 auto;
-}
-.instructions {
-    max-width: 1300px;
-    margin: 0 auto;
-
-}
-
-.instructions-title{
-    font-size: 1.5rem;
-}

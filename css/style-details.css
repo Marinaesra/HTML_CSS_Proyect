@@ -7,6 +7,8 @@
 /*elements*/
 @import "elements/header-details.css";
 @import "elements/recipes.css";
+@import "elements/ingredients.css";
+@import "elements/instruction.css";
 @import "elements/more-articles.css";
 @import "elements/footer.css";
 

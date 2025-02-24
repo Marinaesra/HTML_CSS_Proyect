@@ -6,12 +6,14 @@
   flex-wrap: wrap;
   margin-top: 1.25rem;
   margin-bottom: 6.25rem;
+  font-family:var(--front-text);
 }
 
 .other-articles-title {
     font-size: 3.437rem;
     font-weight: 500;
     padding-bottom: 1.5rem;
+    font-family: var(--title-text);
 }
 
 .other-articles-desc {

@@ -1,0 +1,46 @@
+.ingredients {
+    display: flex;
+    max-width: 81.25rem;
+    margin-inline-start:auto;
+    color: #182226;
+}
+
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients-title{
+    max-width: 28.81rem;
+    font-size: 3.437rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.ingredients-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.ingredients-crust-title,
+.ingredients-cheesecake-title {
+    font-weight: 600;
+}
+
+.ingredients-crust-title {
+    margin-bottom: 3.125rem;
+}
+
+.input [type="checkbox"]::after {
+    appearance: none;
+    border: 1px solid;
+    padding: 0 auto;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+
