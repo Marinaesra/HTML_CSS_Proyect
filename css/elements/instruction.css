@@ -1,9 +1,45 @@
 .instructions {
-    max-width: 1300px;
-    margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    max-width: 55.56rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #182226;
+    font-family: var(--front-text);
 }
 
-.instructions-title{
+.instructions-title {
     font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.instructions li {
+    margin-left: 1.5rem;
+}
+
+.recipe-step-text {
+    margin-bottom: 2.5rem;
+}
+
+.recipe-step-title{
+    color: var(--Secondary, #182226);
+    font-weight: 700;
+}
+
+.instructions ol li::marker {
+    font-weight: 700;
+}
+
+.step-img {
+    border-radius: 0.75rem;
+    margin: 3rem 0;
+}
+
+.recipe-steps ol li::marker {
+    font-weight: 700;
+}
+
+.recipe-steps {
+    margin-left: 1.5rem;
 }

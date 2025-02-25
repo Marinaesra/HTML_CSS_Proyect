@@ -1,8 +1,10 @@
 .ingredients {
     display: flex;
+    margin: 0 auto;
     max-width: 81.25rem;
-    margin-inline-start:auto;
-    color: #182226;
+    margin-inline-start: auto;
+    color: #182226;
+    font-family: var(--front-text);
 }
 
 .ingredients-list {
@@ -10,11 +12,12 @@
     flex-direction: column;
 }
 
-.ingredients-title{
+.ingredients-title {
     max-width: 28.81rem;
     font-size: 3.437rem;
     font-weight: 500;
     margin-bottom: 1.25rem;
+    font-family: var(--title-text);
 }
 
 .ingredients-box {
@@ -24,23 +27,56 @@
     align-self: stretch;
 }
 
+.recipe-ingredient {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 1.25rem;
+    color: var(--Secondary, #182226);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
 .ingredients-crust-title,
 .ingredients-cheesecake-title {
+    font-size: 20px;
+    font-style: normal;
     font-weight: 600;
+    line-height: 30px;
 }
 
 .ingredients-crust-title {
     margin-bottom: 3.125rem;
 }
 
-.input [type="checkbox"]::after {
-    appearance: none;
-    border: 1px solid;
-    padding: 0 auto;
-    border-radius: 50px;
-    width: 15px;
-    height: 15px;
-    display: flex;
-    align-items: center;
+
+.ingredients-cheesecake-title {
+    margin: 3rem 0;
 }
 
+.recipe-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.recipe-checkbox input[type="checkbox"] {
+    appearance: none;
+    border: 0.125rem solid;
+    width: 1.6125rem;
+    height: 1.6125rem;
+    padding: 0.075rem;
+    border-radius: 50%;
+    color: var(--color-primary);
+}
+
+.recipe-checkbox input[type="checkbox"]:checked {
+    content: url(../../imagenes/box.svg);
+    appearance: none;
+    border: none;
+    width: 1.6125rem;
+    height: 1.6125rem;
+}
