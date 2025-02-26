@@ -21,3 +21,7 @@ h6{
 .bg-grey {
     background-color: var(--color-tertiary);
 }
+
+.bg-dark-grey {
+    background-color: var(--color-dark-grey);
+}
