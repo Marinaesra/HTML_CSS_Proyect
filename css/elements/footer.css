@@ -70,7 +70,7 @@
     }
 
     & h3 {
-        font-family: var(--font-text);
+        font-family: var(--front-text);
         color: var(--color-tertiary);
         font-weight: 700; 
     }
