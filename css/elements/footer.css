@@ -7,8 +7,7 @@
     background-color: var(--color-dark-grey);
     padding: 5.5rem 9.5rem;
     gap: 6.25rem;
-    width: 80%;
-    margin: auto;
+   
 }
 
 .footer-info {
@@ -89,6 +88,7 @@
     font-family: var(--front-text);
 
     & h3 {
+        font-family: var(--front-text);
         color: var(--color-tertiary, #f9f9f7);
         font-weight: 700; 
     }
