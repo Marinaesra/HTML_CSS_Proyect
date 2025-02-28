@@ -25,11 +25,11 @@
 }
 
 .blog-article {
-    border-radius: 16px;
+    border-radius: 1rem;
     background-color: var(--color-white);
-    box-shadow: 0px 4px 24.2px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0rem 0.25rem 1.5125rem 0rem rgba(0, 0, 0, 0.08);
     .blog-article-data{
-        padding: 16px 16px 24px 16px;
+        padding: 1rem 1rem 1.5rem 1rem;
     }
 }
 .blog-article-img {

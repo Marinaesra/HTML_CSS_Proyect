@@ -17,7 +17,7 @@
     position: absolute;
     bottom: -3.125rem;
     right: 0;
-    max-width: 411px;
+    max-width: 25.6875rem;
     width: 100%;
     padding: 3.125rem;
     background-color: var(--color-dark-grey);
@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding-inline-start: 90px;
+    padding-inline-start: 5.625rem;
 }
 
 .about-us-title {

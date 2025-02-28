@@ -1,7 +1,7 @@
 .top-bar {
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
+    max-width: 81.25rem;
     margin: 0 auto;
     background-color: #474747;
     color: white;
@@ -17,18 +17,18 @@
 .top-bar-contact{
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 1.5625rem;
     font-family:var(--front-text);
 }
 
 .top-bar-social-menu {
     display: flex;
     align-items: center;   
-    gap: 4px; 
+    gap: 0.25rem; 
 }
 
 .main-menu { 
-    max-width: 1300px;
+    max-width: 81.25rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@
  .logo {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 0.875rem;
 }
 
 .name-bar-title {
@@ -49,7 +49,7 @@
 
 .menu-list {
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     align-items: center;
     font-family:var(--front-text);
 }
@@ -65,7 +65,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }   
 
 .bg-dark-grey {

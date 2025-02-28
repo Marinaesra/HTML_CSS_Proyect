@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-block: 106px;
+    padding-block: 6.625rem;
     font-family:var(--front-text);
 }
 
@@ -19,13 +19,13 @@
 .our-menu-cards {
    display: flex;
    align-items: center;
-   gap: 24px;
+   gap: 1.5rem;
 }
 
 .our-menu-card{
     display: flex;
     flex-direction: column;
-    height: 375px;
+    height: 23.4375rem;
     padding: 2.3125rem 2.125rem 1.875rem;
     align-items: center;
     text-align: center;
@@ -59,7 +59,7 @@
     content: "";
     position: absolute;
     display: inline-block;
-    width: 100px;
+    width: 6.25rem;
     aspect-ratio: 1;
     border-radius: 50%;
     background-color: rgb(115 120 101 / 0.2);

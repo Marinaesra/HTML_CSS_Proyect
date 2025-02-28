@@ -56,7 +56,7 @@
 .opinion-card-desc::after {
     content: "";
     display: block;
-    height: 1px;
+    height: 0.0625rem;
     opacity: 0.7;
     background-color: #DBDFD0;
     margin-block: 32px;

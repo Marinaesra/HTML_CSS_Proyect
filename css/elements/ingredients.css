@@ -34,7 +34,7 @@
     align-self: stretch;
     gap: 1.25rem;
     color: var(--Secondary, #182226);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
@@ -45,7 +45,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 .ingredients-crust-title {

@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: 26.875rem 18.125rem;
     grid-template-rows: 1.875rem 20.8125rem 15rem 1.875rem;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .delivery-img {
