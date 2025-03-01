@@ -7,7 +7,6 @@
     background-color: var(--color-dark-grey);
     padding: 5.5rem 9.5rem;
     gap: 6.25rem;
-   
 }
 
 .footer-info {
@@ -40,6 +39,7 @@
         line-height: 90%;
         letter-spacing: -0.025rem;
     }
+
     & .footer-info-company-desc {
         color: var(--color-font-tertiary);
         font-family: var(--front-text);
@@ -47,6 +47,7 @@
         font-weight: 400;
         line-height: 150%;
     }
+
     & .footer-social-menu {
         display: flex;
         gap: 0.75rem;
@@ -71,7 +72,7 @@
     & h3 {
         font-family: var(--front-text);
         color: var(--color-tertiary);
-        font-weight: 700; 
+        font-weight: 700;
     }
 
     & li {
@@ -90,7 +91,7 @@
     & h3 {
         font-family: var(--front-text);
         color: var(--color-tertiary, #f9f9f7);
-        font-weight: 700; 
+        font-weight: 700;
     }
 }
 
@@ -98,7 +99,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0.9375rem;;
+    gap: 0.9375rem;
+    ;
 }
 
 .footer-info-instagram-img {

@@ -1,11 +1,11 @@
 .about-us {
     display: flex;
     align-items: center;
-    padding-block: 7.5rem;  
-    background-color: #F8F9F7;  
+    padding-block: 7.5rem;
+    background-color: #F8F9F7;
 }
 
-.about-us > div {
+.about-us>div {
     width: 50%;
 }
 
@@ -52,6 +52,7 @@
 .about-us-info-box-address {
     display: flex;
     gap: 1.25rem;
+
     &::before {
         height: 100%;
         aspect-ratio: 1;
@@ -83,5 +84,3 @@
     width: fit-content;
     color: var(--color-font);
 }
-
-    

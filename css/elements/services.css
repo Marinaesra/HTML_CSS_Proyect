@@ -1,6 +1,6 @@
 .services {
     padding-block: 6.625rem;
-    font-family:var(--front-text);
+    font-family: var(--front-text);
 }
 
 .services-title {
@@ -21,8 +21,9 @@
 
 .services-card-img {
     margin-block-end: 1.875rem;
-    
+
 }
+
 .services-card-title {
     font-family: var(--font-text);
     font-size: 1.5rem;

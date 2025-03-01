@@ -2,10 +2,10 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    background-image:linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)),url("/imagenes/Hero.jpg");
+    background-image: linear-gradient(rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.3)), url("/imagenes/Hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family:var(--front-text);
+    font-family: var(--front-text);
 }
 
 .hero-banner-content {
@@ -23,7 +23,7 @@
     justify-content: center;
     font-size: 1.25rem;
     margin: 1.5rem 0 2.5rem;
-}       
+}
 
 .hero-banner-button {
     display: flex;

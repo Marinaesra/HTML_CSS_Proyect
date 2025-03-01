@@ -14,20 +14,20 @@
     gap: 0.5rem;
 }
 
-.top-bar-contact{
+.top-bar-contact {
     display: flex;
     align-items: center;
     gap: 1.5625rem;
-    font-family:var(--front-text);
+    font-family: var(--front-text);
 }
 
 .top-bar-social-menu {
     display: flex;
-    align-items: center;   
-    gap: 0.25rem; 
+    align-items: center;
+    gap: 0.25rem;
 }
 
-.main-menu { 
+.main-menu {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -35,13 +35,14 @@
     align-items: center;
     padding: 1.875rem 0;
 }
- .logo {
+
+.logo {
     display: flex;
     align-items: center;
     gap: 0.875rem;
 }
 
-.name-bar-title{
+.name-bar-title {
     color: var(--color-dark-grey, #474747);
     font-family: var(--title-text);
     font-style: italic;
@@ -51,7 +52,7 @@
     display: flex;
     gap: 2.5rem;
     align-items: center;
-    font-family:var(--front-text);
+    font-family: var(--front-text);
 }
 
 .menu-list a {
@@ -66,7 +67,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.625rem 0;
-}   
+}
 
 .bg-dark-grey {
     background-color: #474747;

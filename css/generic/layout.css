@@ -1,14 +1,13 @@
 body {
-    font-family: var(--front-text)
-    background-color #f9f9f7;
-} 
+    font-family: var(--front-text) background-color #f9f9f7;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-family: var(--title-text);
     font-weight: 400;
 }
